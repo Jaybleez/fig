@@ -1,0 +1,366 @@
+body{
+    background-color:rgb(255, 247, 236);
+    overflow-x: hidden;
+}
+.Header{
+    background-color: white;
+
+}
+
+
+.btnDownload{
+    background-color:#6d1830;
+    color:white;
+    border: none;
+    border-radius: 3px;
+}
+/* .Home{
+    color: #6d1830;
+
+} */
+.Hero{
+    margin-top:180px;
+}
+
+
+.herobutton{
+    display:flex;
+}
+.navbar .active {
+    font-weight: bold;
+    border-bottom: 2px solid  #6D1830;
+    width:100%; 
+    color: #6D1830;
+}
+
+
+
+ .button{
+    background-color: #6d1830;
+    color: white;
+    border: none;
+    border-radius:3px;
+ }
+ .Redefinebtn{
+    color: black;
+    border: none;
+    border-radius:3px;
+}
+
+ .clientlayers{
+    background-color: white;
+    margin-top: 30px;
+ }
+ .client{
+    text-align: center;
+ }
+
+ .herologo{
+    border-bottom: 1px solid rgb(233, 233, 233);
+ }
+
+.Experience,.Ourstory{
+    margin-top:100px;
+}
+.introToNerf{
+    margin-top:200px;
+    background:rgb(2, 33, 51);
+    height: 300px;
+    padding: 35px 20px 20px 20px;
+    transition: 2s ease;
+    
+   
+}
+
+.introToNerf img{
+    margin-top: -170px;
+}
+.extendedphone{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.introToNerfBtn{
+    background: #fff;
+    cursor:pointer;
+}
+
+.crossPhoneMobile{
+    display: none;
+
+}
+
+.horizontalrule{
+    margin-top: 180px;
+}
+
+.bestfeatures{
+    margin-top:100px;
+}
+
+
+.various{
+    background-color: white;
+    border-top: 3px solid rgb(130, 45, 45);
+    border-right: 3px solid rgb(130, 45, 45);
+    border-radius:10px;
+    
+
+}
+
+.Interactive{
+    margin-top: 20px;
+}
+.interCollaborative{
+    width: 99%;
+    margin: 0 auto;
+}
+.interactive,.Seamless{
+    background-color: #ffffff;
+    border-top: 3px solid rgb(130, 45, 45);
+    border-right: 3px solid rgb(130, 45, 45);
+    border-radius:10px ;
+}
+
+
+
+.cardBg{
+    background:rgb(255, 247, 236);
+}
+
+.Topnotchtxt{
+    margin-top: 20%;
+}
+
+.RedefineYour{
+    background-color:rgb(2, 33, 51);
+    margin-top: 100px;
+}
+
+.Redefinetxt{
+    color: white;
+    margin-top: 20%;
+    
+    
+}
+
+.EasySimple{
+    background-color: white;
+    padding: 70px;
+}
+.Newsletter{
+    background-color: #6d1830;
+    color: white;
+    padding:35px;
+    
+}
+.inputform input{
+    width:75%;
+    padding: 7px;
+    outline: none
+
+}
+.inputform button{
+    border: none;
+    padding: 7px;
+    color: #6d1830;
+    font-weight:bold;
+    margin-left:5px;
+}
+.links{
+    padding: 30px 0;
+    width: 83%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footergroup{
+    width: 83%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+ 
+
+
+
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:456px){
+ .herobutton
+    {
+        display:block;
+    }
+  
+    .crossPhoneAll{
+        display: none;
+    }
+    .introToNerf{
+        margin-top:60px;
+        height: 740px;
+        padding: 0;
+    }
+  
+    .crossPhoneMobile{
+        display:block;
+        height: 70vh;
+
+    }  
+    .extendedphone{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .crossPhoneMobile{
+        background: url(/images/Yesphone5.png);
+        background-size: cover;
+        margin-top: 121px;
+        height: 70vh;
+        display: block;
+        background-repeat: no-repeat;
+    }
+    .herobutton{
+        display:block;
+        text-align: center;
+    }
+    .bestfeatures{
+        margin-top: 0px;
+    }
+   .Redefinetxt{
+        display: block;
+        text-align: center;
+    }
+    .horizontalrule{
+        display: none;
+    }
+        
+    .links{
+       
+        display: block;
+        
+    }
+    
+.navbar .active {
+    font-weight: bold;
+    border-bottom: 2px solid  #6D1830;
+    width:13%; 
+    color: #6D1830;
+}
+     
+}
+
+/* Aboutsection */
+.blog{
+    background-color: white;
+}
+
+.aboutViewSection{
+    padding-top: 50px;
+    background: rgb(0, 53, 82);
+    color:#fff;
+}
+
+.containerMe{
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.aboutViewLogo{
+    float: right;
+    display: flex;
+}
+.Downloadpagebtn{
+    background-color:#c5a3ac;
+    color: white;
+}
+.MarkerlessAR{
+    margin:75px;
+    background-color: rgb(0, 53, 82) ;
+    color: white;
+}
+
+.linksDownload{
+    background-color: white;
+
+}
+
+
+/* contact section */
+.formgroup{
+    display: flex;
+    gap: 80px;
+}
+.formgroup input{
+    width: 130%;
+}
+.image1section{
+    margin-top: -48px;
+    background-color: white;
+}
+
+.Helpsupport{
+    width: 15%;
+    text-align: center;
+    margin: auto;
+}
+.Prefercards{
+    background-color:rgb(255, 247, 236);
+}
+.PrefertoReach{
+    margin-top: 50px;
+}
+
+/* Blog Section */
+.Flying{
+    margin-top:20px;
+
+}
+.Flying1{
+    margin-top: -10px;
+}
+/* .pagnition{
+    margin-top: 100px;
+} */
+.pagnition a{
+    color:black ;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-weight:medium;
+    display: inline-block;
+
+}
+.pagnition a.active{
+    color: #6d1830;
+    background-color: rgb(216, 216, 216);
+    border-radius: 5px;
+}
+.pagnition a.PandN{
+    color: #6d1830;
+    font-weight:bold ;
+}
+
+.Articlebutton{
+    border:none;
+    border-color: #6d1830;
+    padding:15px;
+    color: #6d1830;
+    border-color: #6d1830;
+    background: white;
+}
+
+
+
+
